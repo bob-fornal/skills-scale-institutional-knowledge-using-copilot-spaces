@@ -41,5 +41,8 @@ Turn an approved initiative into an actionable plan and backlog for delivery.
 - [ ] Release timeline and milestones agreed
 - [ ] Definition of Done documented
 - [ ] Initial test plan / QA approach drafted
+- [ ] Security Lead engaged (if project involves sensitive data, compliance requirements, or significant attack surface changes)
+- [ ] Change Manager identified (if project scope is complex or high-change-risk)
+- [ ] Support Coordinator briefed on project goals and expected release cadence
 
 > **Ownership tip:** See the [Roles & Responsibilities Matrix](octoacme-roles-and-responsibilities-matrix.md) for a breakdown of who is Responsible, Accountable, Consulted, and Informed for each planning activity.

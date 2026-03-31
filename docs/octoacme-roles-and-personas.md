@@ -206,6 +206,168 @@ Release Managers coordinate and govern the end-to-end release process to ensure 
 
 ---
 
+## Change Manager
+
+### Role Summary
+Change Managers oversee and coordinate changes that affect project scope, timeline, or resources. They maintain the change log, facilitate change control board (CCB) reviews when required, and ensure that all changes are properly assessed for risk and impact before implementation.
+
+### Responsibilities
+- Establish and maintain the change request process and approval workflows
+- Facilitate impact analysis with relevant stakeholders before changes are approved
+- Maintain the change log and keep it current throughout the project lifecycle
+- Communicate approved changes and their implications to impacted teams
+- Ensure rejected or deferred changes are documented with rationale
+
+### Goals
+- Prevent scope creep and uncontrolled changes from destabilizing delivery
+- Ensure all changes are evaluated, approved, and communicated consistently
+- Maintain an auditable record of decisions and change history
+
+### Typical Communication
+- Change request forms and approval notifications
+- Change control board meetings or async reviews
+- Change log updates shared with Project Managers and stakeholders
+- Impact summaries for approved scope or timeline adjustments
+
+### How they interact with existing roles
+- **Project Managers**: Collaborate closely to log, prioritize, and schedule approved changes; surface change-driven risks and timeline impacts.
+- **Product Managers**: Consult on scope changes to ensure alignment with product strategy and customer commitments.
+- **Developers**: Notify of approved scope or technical changes that affect implementation plans; gather effort estimates for change analysis.
+- **Release Manager**: Coordinate changes that affect release scope or timing; ensure change approvals are reflected in the release plan.
+- **Stakeholders**: Present change requests for approval; communicate impact of approved changes on budget, timeline, and scope.
+
+---
+
+## Security Lead
+
+### Role Summary
+Security Leads ensure that security requirements are identified and embedded throughout the project lifecycle. They guide threat modeling, coordinate vulnerability assessments, and validate that security risks are remediated before software is released.
+
+### Responsibilities
+- Advise on security best practices, standards, and applicable regulatory requirements
+- Conduct or coordinate threat assessments and security design reviews
+- Review and validate remediation of identified vulnerabilities prior to release
+- Maintain a security risk log and escalate critical findings to Product and Project Managers
+- Ensure security scanning is integrated into CI/CD pipelines and interpreted correctly
+- Act as the primary point of escalation for security incidents
+
+### Goals
+- Embed security into the delivery process from initiation through release
+- Reduce the likelihood and impact of security incidents in production
+- Ensure the team meets applicable compliance and regulatory obligations
+
+### Typical Communication
+- Security review findings and remediation tracking
+- Pre-release security sign-off and go/no-go input
+- Security incident notifications and post-incident reports
+- Guidance documents and threat model outputs shared with the delivery team
+
+### How they interact with existing roles
+- **Product Managers**: Advise on security requirements that may influence roadmap priorities or product decisions; surface compliance constraints early.
+- **Project Managers**: Report security risks that could affect timelines or scope; participate in risk register reviews.
+- **Developers**: Provide secure coding guidance, review code for security concerns, and support remediation of identified vulnerabilities.
+- **DevOps Engineers**: Collaborate on pipeline security, secrets management, infrastructure hardening, and monitoring for security events.
+- **QA/Testing**: Define security acceptance criteria and support security-focused test coverage.
+- **Release Manager**: Provide security sign-off as part of the pre-release checklist; flag unresolved vulnerabilities that should block release.
+
+---
+
+## Support Coordinator
+
+### Role Summary
+Support Coordinators manage the transition from delivery to post-release operations. They own the communication loop between end users and the delivery team, triaging production issues and user feedback to ensure timely resolution and continuous improvement.
+
+### Responsibilities
+- Triage incoming support requests, production bugs, and user feedback
+- Coordinate prioritization and handoff of post-release issues to the development team
+- Maintain user-facing status pages, FAQs, and support knowledge base content
+- Track and report on support volume, trends, and resolution times
+- Ensure support teams are briefed ahead of each release on new features and known issues
+
+### Goals
+- Minimize user impact from production issues through rapid triage and escalation
+- Close the feedback loop between end users and the delivery team
+- Improve self-service support coverage to reduce repetitive escalations
+
+### Typical Communication
+- Support ticket updates and escalation notifications to the development team
+- Pre-release briefings from the Release Manager on upcoming changes
+- Regular summaries of support volume and trending issues for Product Managers
+- Post-release incident reports and user-impact assessments
+
+### How they interact with existing roles
+- **Release Manager**: Receive advance notice of release scope and timing; provide post-release user impact feedback; participate in go/no-go discussions for high-risk releases.
+- **Developers**: Escalate reproducible production bugs with supporting context; coordinate fixes and verify resolutions.
+- **QA/Testing**: Share user-reported issues that reveal gaps in test coverage; collaborate on regression test cases.
+- **Product Managers**: Surface support trends and recurring user pain points to inform roadmap prioritization.
+- **Project Managers**: Report support-related risks or production incidents that may require project-level escalation.
+- **DevOps Engineers**: Escalate infrastructure-related user-impacting issues; collaborate on incident resolution.
+
+---
+
+## Community Moderator
+
+### Role Summary
+Community Moderators guide and maintain healthy contributor and user communities for open source or community-facing projects. They enforce community guidelines, help onboard contributors, and ensure productive interactions across forums, issue trackers, and code discussions.
+
+### Responsibilities
+- Review community contributions for adherence to contribution guidelines and code of conduct
+- Moderate discussions, resolve conflicts, and enforce community standards
+- Onboard and mentor new contributors; maintain contributor documentation
+- Organize community calls, events, and recognition programs
+- Triage community-raised issues and route them to the appropriate delivery team members
+
+### Goals
+- Foster a welcoming, productive, and inclusive contributor community
+- Reduce friction for new contributors joining the project
+- Ensure community feedback reaches the delivery team in a structured, actionable form
+
+### Typical Communication
+- Community forum moderation and announcements
+- Contributor onboarding guides and welcome communications
+- Regular community update posts and event coordination
+- Issue triage summaries shared with Product Managers and Project Managers
+
+### How they interact with existing roles
+- **Product Managers**: Surface trends from community discussions and contributor feedback to inform roadmap decisions; collaborate on communicating product direction to the community.
+- **Project Managers**: Report community-raised issues or risks that require internal escalation; coordinate community involvement in milestone activities.
+- **Developers**: Facilitate community code contributions by clarifying contribution guidelines and coordinating PR reviews with maintainers.
+- **Customer Success Manager**: Share community sentiment and adoption signals that may affect customer-facing communications.
+
+---
+
+## Customer Success Manager
+
+### Role Summary
+Customer Success Managers act as the primary point of contact for strategic or high-value customers, ensuring they realize measurable value from the product. They bridge the customer relationship and the delivery team, translating customer needs into actionable product insights.
+
+### Responsibilities
+- Onboard customers and guide adoption of new features and capabilities
+- Collect, synthesize, and relay customer feedback to inform roadmap decisions
+- Proactively identify expansion, renewal, or at-risk signals and escalate appropriately
+- Represent the customer perspective in planning sessions and retrospectives
+- Coordinate with Support Coordinator for escalated or high-priority customer issues
+
+### Goals
+- Ensure customers achieve their desired outcomes from the product
+- Maximize customer retention and expansion through proactive engagement
+- Translate customer insights into product improvements that benefit the broader user base
+
+### Typical Communication
+- Regular customer check-ins and business reviews (QBRs)
+- Feature adoption reports and health metrics shared with Product Managers
+- Escalation notifications to Support Coordinator and Project Managers
+- Customer-facing release summaries and roadmap previews
+
+### How they interact with existing roles
+- **Product Managers**: Advocate for customer-driven feature needs and share adoption data; participate in roadmap planning to ensure customer commitments are represented.
+- **Release Manager**: Receive advance notice of release scope and timing to prepare customer communications; provide customer impact assessment for high-risk releases.
+- **Support Coordinator**: Collaborate on escalated or high-priority customer issues; share customer context to accelerate triage and resolution.
+- **Project Managers**: Surface customer commitments or escalations that should be reflected in project priorities or risk registers.
+- **Developers**: Communicate customer-specific use cases or constraints that may influence technical decisions.
+
+---
+
 ## How these personas are used in the exercise
 - Use these persona definitions to frame scenarios and sample interactions in the Skills Exercise.
 - Each persona can be used as a persona prompt for Copilot Spaces to shape role-specific guidance.

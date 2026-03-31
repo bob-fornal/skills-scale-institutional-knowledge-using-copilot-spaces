@@ -27,7 +27,7 @@ Whenever a new project idea or feature proposal is ready to be explored.
 - Primary stakeholders:
 - Suggested timeline / milestones:
 - Quick risks & dependencies:
-- Proposed team / roles:
+- Proposed team / roles: _(consider: Project Manager, Product Manager, Developers, UX Designer, DevOps Engineer, Business Analyst, Release Manager, QA/Testing. For projects with significant scope change risk, regulatory requirements, or post-release support needs, also consider: **Change Manager**, **Security Lead**, **Support Coordinator**.)_
 
 ## Initiation Checklist
 - [ ] One-pager completed and reviewed by Product Lead
