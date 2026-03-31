@@ -3,6 +3,8 @@
 ## Purpose
 Standardize how OctoAcme releases features to production to reduce risk and improve observability.
 
+> **Role clarity:** The **Release Manager** owns end-to-end release coordination — maintaining the release calendar, driving go/no-go decisions, and communicating release outcomes to stakeholders. The **DevOps Engineer** is responsible for pipeline execution, infrastructure provisioning, and rollback mechanics. See [Roles & Personas](octoacme-roles-and-personas.md) for full descriptions, and the [Roles & Responsibilities Matrix](octoacme-roles-and-responsibilities-matrix.md) for per-activity ownership.
+
 ## Release Types
 - Patch: hotfixes addressing critical production issues
 - Minor: incremental features and improvements
