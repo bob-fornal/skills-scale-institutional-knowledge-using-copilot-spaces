@@ -41,3 +41,5 @@ Turn an approved initiative into an actionable plan and backlog for delivery.
 - [ ] Release timeline and milestones agreed
 - [ ] Definition of Done documented
 - [ ] Initial test plan / QA approach drafted
+
+> **Ownership tip:** See the [Roles & Responsibilities Matrix](octoacme-roles-and-responsibilities-matrix.md) for a breakdown of who is Responsible, Accountable, Consulted, and Informed for each planning activity.

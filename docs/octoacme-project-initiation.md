@@ -36,6 +36,8 @@ Whenever a new project idea or feature proposal is ready to be explored.
 - [ ] Create repo or project board skeleton
 - [ ] Add initial artifacts to repo (docs/ or .copilot/)
 
+> **Ownership tip:** See the [Roles & Responsibilities Matrix](octoacme-roles-and-responsibilities-matrix.md) for a breakdown of who is Responsible, Accountable, Consulted, and Informed for each initiation activity.
+
 ## Decision Gate
 Move to planning when:
 - Success metrics are clear
