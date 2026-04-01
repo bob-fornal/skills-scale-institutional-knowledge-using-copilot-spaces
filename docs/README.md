@@ -23,3 +23,4 @@ Quality assurance and release practices are integrated throughout delivery rathe
 - [Retrospective & Continuous Improvement](octoacme-retrospective-and-continuous-improvement.md)
 - [Roles & Personas](octoacme-roles-and-personas.md)
 - [Roles & Responsibilities Matrix](octoacme-roles-and-responsibilities-matrix.md)
+- [Change Control Checklist](octoacme-change-control-checklist.md)

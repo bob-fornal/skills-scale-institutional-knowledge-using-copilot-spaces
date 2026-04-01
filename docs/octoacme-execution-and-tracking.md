@@ -27,6 +27,14 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - Track velocity and burndown
 - Monitor success metrics identified in the Project One-pager
 - Use dashboards for key signals (errors, latency, usage)
+- **Support Coordinator** owns production feedback signals: user-reported issues, support ticket volume, and trending defects are surfaced to the delivery team for triage
+
+## Change Handling During Execution
+- All changes to scope, timeline, or resources during execution must be submitted as a formal change request
+- **Change Manager** is responsible for logging, assessing, and routing change requests through the approval workflow
+- Approved changes are communicated by the **Change Manager** to all impacted team members and stakeholders
+- The Project Manager updates the project plan to reflect approved changes
+- See [Change Control Checklist](octoacme-change-control-checklist.md) for the change request template and approval workflow
 
 ## Blocker Escalation
 - Level 1: Team-level triage in daily standup
